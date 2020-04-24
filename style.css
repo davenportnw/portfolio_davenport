@@ -1,9 +1,20 @@
 */
 body {
-    background-color: lightgrey;
+    background-color: #f1f1f1;
 
 }
 
+p {
+    font-family: "";
+}
+profile {
+    background-color:whitesmoke;
+    width: auto;
+    border: 15px solid black;
+    padding: auto;
+    margin: auto;
+
+}
 h1 {
     text-align: center;
     color: maroon;
