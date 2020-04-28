@@ -3,7 +3,7 @@ body {
     background-color:lightgray;
 
 }
- header{
+ head{
     background-color: lightyellow;  
     font-family: 'Lobster Two', cursive;
  }
@@ -18,7 +18,11 @@ body {
  }
 
 
-/* Media Screens  */
+p{
+  color:white;
+}
+
+  /* Media Screens  */
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { ... }
