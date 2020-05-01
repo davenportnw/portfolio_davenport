@@ -17,7 +17,9 @@ body {
 
 
 p{
+
   color: black;
+  font-family: 'Muli', sans-serif;
 }
 
 .pHead{
