@@ -13,5 +13,5 @@ def  contact():
     # Give me the information
     print(request.form['nombre'])
     print('nombre')
-return 'Thank you' + request.form['nombre' + 'for contacting Nicole. Email was']
+    return 'Thank you ' + request.form['nombre'] + 'for contacting Nicole. Email was sent.'
    
