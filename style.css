@@ -36,6 +36,11 @@ p{
   background-color: gray;
 }
 
+
+#portfolio{
+  background-color:lightgray;
+  
+}
 @media only screen and (max-width: 600px) {
   #aboutme {
     background-color: lightblue;
