@@ -1,4 +1,5 @@
 */
+
 body {
     background-color:lightgray;
 }
@@ -24,10 +25,14 @@ p{
 
 .pHead{
   color:white;
+  background-color:black;
+
 }
 
 #aboutme{
   background-color: whitesmoke;
+  padding-bottom: 1cm;
+  padding-top: 1cm;
   
 }
 
@@ -36,10 +41,21 @@ p{
   background-color: gray;
 }
 
+.background1 {
+  background-color: black;
+}
 
 #portfolio{
   background-color:lightgray;
-  
+  padding-bottom: 1cm;
+  padding-top: 1cm;
+
+}
+
+#contactme{
+  background-color:whitesmoke;
+  padding-bottom: 1cm;
+  padding-top: 1cm;
 }
 @media only screen and (max-width: 600px) {
   #aboutme {
