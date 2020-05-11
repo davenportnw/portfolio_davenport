@@ -49,6 +49,10 @@ p{
   background-color:lightgray;
   padding-bottom: 1cm;
   padding-top: 1cm;
+}
+
+#portfolio h1 p{
+  text-align: center;
 
 }
 
@@ -57,10 +61,28 @@ p{
   padding-bottom: 1cm;
   padding-top: 1cm;
 }
-@media only screen and (max-width: 600px) {
-  #aboutme {
-    background-color: lightblue;
-  }
+@media (min-width: 600px) {
+  h1{
+    font-family: 'Lobster Two', cursive;
+    font-size: large;
+    display: inline-block;
+    margin: 300px;
+    padding: 10px;
+    font-size: auto;
+
+}
+
+p{
+  color: black;
+  font-family: 'Muli', sans-serif;
+  font-size: auto;
+
+}
+
+.pHead{
+  color:white;  
+  font-size:auto;
+}
 }
 
 
