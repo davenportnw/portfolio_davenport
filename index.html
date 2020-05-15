@@ -36,41 +36,41 @@
 <!-- Header -->
 
 <header>
-<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-    <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-  </ol>
-<!-- First Slide -->
-<div class="carousel-inner">
-<div class="carousel-item active">
-  <img src="images/Untitled-1.jpg" class="d-block w-100" alt="Background One">
-    <div class="carousel-caption d-md-block">
-       <h1 class="background1">Full Stack Web Developer - Nicole Davenport</h1>
-       <p class="pHead text-center">Passionate and aspiring web developer student at the University of Texas in Austin.</p>
-    </div>   
-</div>
+  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    </ol>
+  <!-- First Slide -->
+  <div class="carousel-inner">
+  <div class="carousel-item active">
+    <img src="images/Untitled-1.jpg" class="d-block w-100" alt="Background One">
+      <div class="carousel-caption d-md-block">
+        <h1 class="background1">Full Stack Web Developer - Nicole Davenport</h1>
+        <p class="pHead text-center">Passionate and aspiring web developer student at the University of Texas in Austin.</p>
+      </div>   
+  </div>
 </div>
 
 <!-- Second Slide -->
 <div class="carousel-item">
   <img src="images/Untitled-2.jpg" class="d-block w-100" alt="Background Two">
-<div class="carousel-caption d-md-block">
-  <h1 class="background1">Get to know me!</h1>
-  <p class="pHead text-center">Hello, my name is Nicole and I am currently enrolled at the University of Texas in Austin attending their Full-Stack Coding Program!</p>
-  <a href="#aboutme" class="btn btn-light" role="button">Click here to get to know me better!</a>
-</div>
+  <div class="carousel-caption d-md-block">
+    <h1 class="background1">Get to know me!</h1>
+    <p class="pHead text-center">Hello, my name is Nicole and I am currently enrolled at the University of Texas in Austin attending their Full-Stack Coding Program!</p>
+    <a href="#aboutme" class="btn btn-light" role="button">Click here to get to know me better!</a>
+  </div>
 </div>
 
 <!-- Third Slide -->
 <div class="carousel-item">
   <img src="images/Untitled-3.jpg" class="d-block w-100" alt="Background Three">
-<div class="carousel-caption d-md-block">
-  <h1 class="background1">Experience </h1>
-    <p class="pHead text-center">As a student I am passionate about learning more!</p>
-    <a href="#portfolio" class="btn btn-light" role="button">Check out my Portfolio!</a>
-</div>
+    <div class="carousel-caption d-md-block">
+      <h1 class="background1">Experience </h1>
+      <p class="pHead text-center">As a student I am passionate about learning more!</p>
+      <a href="#portfolio" class="btn btn-light" role="button">Check out my Portfolio!</a>
+    </div>
 </div>
 <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -88,7 +88,7 @@
 <section id="aboutme">
 <div class="container-md" >
 <div class="row">
-<div class="col-5">
+<div class="col col-sm-12 col-lg-5">
   <h1 class="text-center"><u>About me</u></h1>
      <p>Hello, my name is Nicole Davenport. When I was two years old I was adopted from south China!
       I’ve always been a passionate and curious person, wanting to expand my knowledge on whatever crossed my way. I am currently enrolled at the University of Texas in Austin’s Coding Bootcamp. I am excited to challenge and expand my knowledge in coding the next six months. 
@@ -113,10 +113,12 @@
 <!-- Portfolio Page -->
 <section id="portfolio">
 <div class="container-md">
-<div class="row-md">
-  <h1><u>Portfolio</u></h1>
-  <p class="text-center">Previous and current projects I've worked on.</p>
-</div>
+  <div class="col col-sm-12 col-md-3 col-lg-5">
+    <div class="row-md">
+      <h1><u>Portfolio</u></h1>
+      <p class="text-center">Previous and current projects I've worked on.</p>
+     </div>   
+ </div>
 </div>
 
 
@@ -124,33 +126,34 @@
   <!-- Projects -->
 
   <!-- Marketing Project -->
-<div class="col-12">
-<div class="card">
-<div class="card-body">
-  <h4 class="card-title text-center">Marketing Company</h4>
-  <h6 class="card-subtitle mb-2 text-muted text-center">April 2020</h6>
-    <img src="images/Screen Shot 2020-05-01 at 4.01.04 PM.png" class="mx-auto d-block" alt="Marketing Website Snippet" width="800px" height="400">
-    <br>
-    <a href="https://davenportnw.github.io/Homework01_HTML/" class="card-link"><p class="text-center">Click here to view</p></a>
-    <a href="https://github.com/davenportnw/JS_Password_Generator">
-      <img src="images/githu.png" alt="github" width="30px" height="30px">
-</div>
-</div>
-</div>
+<div class="container d-flex flex-row h-100">
+  <div class="col col-sm-12 col-md-3 col-lg-5">
+    <div class="card cardHeight">
+      <div class="card-body">
+        <h4 class="card-title text-center">Marketing Company</h4>
+        <h6 class="card-subtitle mb-2 text-muted text-center">April 2020</h6>
+        <img src="images/Screen Shot 2020-05-01 at 4.01.04 PM.png" class="mx-auto d-block img-fluid" alt="Marketing Website Snippet" >
+        <br>
+        <a href="https://davenportnw.github.io/Homework01_HTML/" class="card-link"><p class="text-center">Click here to view</p></a>
+        <a href="https://github.com/davenportnw/JS_Password_Generator">
+        <img src="images/githu.png" alt="github" width="30px" height="30px">
+      </div>
+    </div>
+  </div>
 
-<!-- Random Password Generator -->
-<div class="col-12">
-<div class="card" >
-<div class="card-body">
-  <h4 class="card-title text-center">Password Generator</h4>
-    <img src="images/Screen Shot 2020-05-10 at 9.07.02 PM.png" class="mx-auto d-block" alt="Marketing Website Snippet" width="800px" height="400">
-    <br>
-    <a href="https://github.com/davenportnw/Homework01_HTML" class="card-link"><p class="text-center">Click here to view</p></a>
-    <a href="https://github.com/davenportnw/JS_Password_Generator">
-    <img src="images/githu.png" alt="github" width="30px" height="30px">
-    </a>
-</div>
-</div>
+  <!-- Random Password Generator -->
+  <div class="col col-sm-12 col-md-3 col-lg-5">
+    <div class="card cardHeight" >
+      <div class="card-body" height="409.8px">
+        <h4 class="card-title text-center">Password Generator</h4>
+        <img src="images/Screen Shot 2020-05-10 at 9.07.02 PM.png" class="mx-auto d-block img-fluid"  alt="Marketing Website Snippet">
+        <a href="https://github.com/davenportnw/Homework01_HTML" class="card-link"><p class="text-center">Click here to view</p></a>
+        <a href="https://github.com/davenportnw/JS_Password_Generator">
+        <img src="images/githu.png" alt="github" width="30px" height="30px">
+        </a>
+      </div>
+    </div>
+  </div>
 </div>
   
 </section>
