@@ -45,22 +45,54 @@ p{
   background-color: black;
 }
 
+/* Navigation Bar  */
+
+
+/* Portfolio Page */
+
 #portfolio{
-  background-color:lightgray;
+  background-color:white;
   padding-bottom: 1cm;
   padding-top: 1cm;
 }
 
-#portfolio h1 p{
-  text-align: center;
 
+.portfolioTitle {
+  padding-left: 4cm;
+  padding-top: 1cm;
+  align-self: center;
 }
 
+.portfolioText {
+  padding-right: 1in;
+}
+
+
+/* Contact Me Page */
 #contactme{
   background-color:whitesmoke;
   padding-bottom: 1cm;
   padding-top: 1cm;
 }
+
+
+/* About Me Page */
+.aboutmetitle {
+  padding-top: 5cm;
+  padding-left: 4.5cm;
+}
+
+.aboutmetext {
+  margin: 10px;
+}
+
+#aboutmephoto {
+  border-radius:50%;
+  margin-left: 350px;
+}
+
+
+
 @media (min-width: 600px) {
 
   h1{
@@ -86,6 +118,11 @@ p{
   color:white;  
   font-size:auto;
 }
+
+.aboutMeSection {
+  padding-top: 1cm;
+  padding-bottom: 1cm;
+  background-color: blue;
 }
 
 
