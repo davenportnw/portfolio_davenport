@@ -52,19 +52,20 @@ p{
 
 #portfolio{
   background-color:white;
+  padding-left: 5cm;
   padding-bottom: 1cm;
   padding-top: 1cm;
 }
 
 
 .portfolioTitle {
-  padding-left: 4cm;
+  padding-left: 2.5cm;
   padding-top: 1cm;
   align-self: center;
 }
 
-.portfolioText {
-  padding-right: 1in;
+#portfolioText {
+  padding-left: 8cm;
 }
 
 
