@@ -87,8 +87,13 @@ p{
   margin: 10px;
 }
 
-#aboutmephoto {
-  border-radius:50%;
+.aboutmephoto {
+  border-radius:50%; 
+  margin-left: 5px;
+  margin-right: 5px; 
+}
+
+#aboutmephoto2 {
   margin-left: 350px;
 }
 
