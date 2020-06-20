@@ -1,7 +1,7 @@
 */
 
 body {
-    background-color:lightgray;
+  background-color: #212b31;
 }
  head{
     background-color: lightyellow;  
@@ -12,10 +12,7 @@ body {
      font-family: 'Lobster Two', cursive;
      font-size: large;
      display: inline-block;
-     margin: 60px;
-     padding: 20px;
  }
-
 
 p{
 
@@ -29,21 +26,22 @@ p{
 
 }
 
-#aboutme{
-  background-color: whitesmoke;
-  padding-bottom: 1cm;
-  padding-top: 1cm;
+/* Homepage  */
+.hithere{
+  padding-top: 8cm;
+  text-shadow: 2px 2px red;
+  font-size: 80px;
+  text-align: start;
   
 }
 
-.background2 {
-
-  background-color: gray;
+.hitheretext {
+    display: block;
+    padding-left: 3cm;  
+    text-align: justify;
+    white-space: wrap;
 }
 
-.background1 {
-  background-color: black;
-}
 
 /* Navigation Bar  */
 
@@ -71,7 +69,7 @@ p{
 
 /* Contact Me Page */
 #contactme{
-  background-color:whitesmoke;
+  background-color: white;
   padding-bottom: 1cm;
   padding-top: 1cm;
 }
@@ -95,6 +93,13 @@ p{
 
 #aboutmephoto2 {
   margin-left: 350px;
+}
+
+#aboutme{
+  background-color: white;
+  padding-bottom: 1cm;
+  padding-top: 1cm;
+  
 }
 
 
