@@ -51,7 +51,17 @@ p{
 
 /* Navigation Bar  */
 
+.zoom {
+  padding: 20px;
+  transition: transform .2s;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
 
+.zoom:hover {
+  transform: scale(1.5);
+}
 /* Portfolio Page */
 
 #portfolio{
