@@ -31,7 +31,8 @@ p{
   padding-top: 8cm;
   text-shadow: 2px 2px red;
   font-size: 80px;
-  text-align: start;
+  float: left;
+  margin-left: 1cm;
   
 }
 
@@ -40,6 +41,11 @@ p{
     padding-left: 3cm;  
     text-align: justify;
     white-space: wrap;
+}
+
+#homepagephoto {
+  margin-top: -6cm;
+  margin-left: 1cm;
 }
 
 
