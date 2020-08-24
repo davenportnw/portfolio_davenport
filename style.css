@@ -28,11 +28,11 @@ p{
 
 /* Homepage  */
 .hithere{
-  padding-top: 8cm;
+  padding-top: 12cm;
   text-shadow: 2px 2px red;
   font-size: 80px;
   float: left;
-  margin-left: 1cm;
+  margin-left: 7cm;
   
 }
 
@@ -44,8 +44,11 @@ p{
 }
 
 #homepagephoto {
-  margin-top: -6cm;
-  margin-left: 1cm;
+  margin-top: -7cm;
+  margin-left: 1in;
+}
+.description {
+  margin-left: 13cm;
 }
 
 
