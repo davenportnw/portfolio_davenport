@@ -74,7 +74,7 @@ p{
 
 .portfolioTitle {
   padding-left: 2.5cm;
-  padding-top: 1cm;
+  padding-top: 4cm;
   align-self: center;
 }
 
@@ -82,12 +82,15 @@ p{
   padding-left: 8cm;
 }
 
-
 /* Contact Me Page */
 #contactme{
   background-color: white;
   padding-bottom: 1cm;
   padding-top: 1cm;
+}
+
+.employeeMgmt{
+  margin-left: 1.8cm;
 }
 
 
